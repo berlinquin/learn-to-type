@@ -1,0 +1,39 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+.learn-to-type {
+  background-color: lightgrey;
+  padding: 4px;
+}
+.row {
+  display: flex;
+}
+.keypad {
+  background: black;
+  border-radius: 5px;
+  margin: 4px;
+  color: white;
+  border: 2px solid black;
+  text-align: center;
+}
+.selected-keypad {
+  background: white;
+  color: black;
+}
+.transparent-panel::before {
+  background-color: transparent !important;
+}
+
+#keyboard-modal-panel {
+  margin-right: 0px;
+  top: 30px;
+}
+#keyboard-modal-panel::after {
+  background: transparent;
+}
+#keybaord-container {
+  padding: 3px;
+}

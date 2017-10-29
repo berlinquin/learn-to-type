@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle learn-to-type",
+        "command": "learn-to-type:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "learn-to-type",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "learn-to-type:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
