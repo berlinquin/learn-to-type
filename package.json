@@ -2,13 +2,14 @@
   "name": "learn-to-type",
   "main": "./lib/learn-to-type",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "Typing is hard. Learn to type better with this package for the Atom text editor.",
   "keywords": [
+    "keyboard", "learn", "type"
   ],
   "activationCommands": {
     "atom-workspace": "learn-to-type:toggle"
   },
-  "repository": "https://github.com/atom/learn-to-type",
+  "repository": "https://github.com/berlinquin/learn-to-type.git",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
