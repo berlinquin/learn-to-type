@@ -1,5 +1,9 @@
 # learn-to-type package
 
-A short description of your package.
+Typing is hard. Learn to type better with this package for the Atom text editor.
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+When toggled, this package displays an interactive virtual keyboard that highlights keys as you type them.
+
+![learn-to-type screenshot](./styles/readme-screenshot.png?raw=true "Checkout this screenshot here:")
+
+This package can always be improved! Feel free to fork the project to add features (and fix my bugs).
