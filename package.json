@@ -1,7 +1,7 @@
 {
   "name": "learn-to-type",
   "main": "./lib/learn-to-type",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Typing is hard. Learn to type better with this package for the Atom text editor.",
   "keywords": [
     "keyboard",
