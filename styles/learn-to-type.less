@@ -4,6 +4,13 @@
 // for a full listing of what's available.
 @import "ui-variables";
 
+@pinky: #78e2aa;
+@ring: #63e3ff;
+@middle: #f69ec4;
+@leftIndex: #ffba71;
+@rightIndex: #ffec65;
+@keypadText: #151515;
+
 .learn-to-type {
   background-color: lightgrey;
   padding: 4px;
@@ -13,20 +20,45 @@
   display: flex;
 }
 .keypad {
-  background: black;
-  margin: 4px;
-  padding: 0px 6px;
+  margin: 2px;
+  padding: 0px 4px;
   text-align: center;
-  color: white;
+  color: @keypadText;
   border-radius: 5px;
   border: 2px solid black;
+  &.pinky {
+    background: @pinky;
+  }
+  &.ring {
+    background: @ring;
+  }
+  &.middle {
+    background: @middle;
+  }
+  &.left-index {
+    background: @leftIndex;
+  }
+  &.right-index {
+    background: @rightIndex;
+  }
 }
 .selected-keypad {
-  background: white;
-  color: black;
-}
-.transparent-panel::before {
-  background-color: transparent !important;
+  background: black !important;
+  &.pinky {
+    color: @pinky;
+  };
+  &.ring {
+    color: @ring;
+  }
+  &.middle {
+    color: @middle;
+  }
+  &.left-index {
+    color: @leftIndex;
+  }
+  &.right-index {
+    color: @rightIndex;
+  }
 }
 
 #keyboard-right-panel {
