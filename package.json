@@ -6,7 +6,8 @@
   "keywords": [
     "keyboard",
     "learn",
-    "type"
+    "type",
+    "typing"
   ],
   "activationCommands": {
     "atom-workspace": "learn-to-type:toggle"
